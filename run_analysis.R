@@ -34,8 +34,8 @@ run_analysis <- function(workDir = "")
         dfX <- rbind(dfXtrain, dfXtest)
 
         ## Feature names a extracted from the features.txt file.
-        ## The resulting data frame is then transposed to a matrix using t()
-        ## the the previously merges data set is enhanced with column names
+        ## The resulting data frame is then transposed to a matrix using t(),
+        ## then, the previously merged data set is enhanced with column names
         dfFeat <- read.table("./UCI HAR Dataset/features.txt")
         dfFeat <- t(dfFeat)
         colnames(dfX) <- dfFeat[2, ]
