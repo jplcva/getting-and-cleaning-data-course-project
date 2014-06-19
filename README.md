@@ -46,7 +46,7 @@ Below is the description of the steps required to generate a aggregated tidy dat
 11. The resulting aggregated data set is the written to the analysisData.txt file, in the working directory.
 12. Objects in the environment are then removed using rm().
 
-This is an extract of the generated analysisData.txt file:
+This is an extract (6 rows, 4 colunms) of the generated analysisData.txt file:
 
       subject_id activity MeanOfTimeForBodyAccelerationOnX MeanOfTimeForBodyAccelerationOnY
     1          1   LAYING                        0.2215982                      -0.04051395
