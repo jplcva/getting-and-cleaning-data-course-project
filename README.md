@@ -45,3 +45,13 @@ Below is the description of the steps required to generate a aggregated tidy dat
 10. The first two columns of the aggregated data set are labeled in a descriptive way, since aggregate() generates "Group.#" columns.
 11. The resulting aggregated data set is the written to the analysisData.txt file, in the working directory.
 12. Objects in the environment are then removed using rm().
+
+This is an extract of the generated analysisData.txt file:
+
+      subject_id activity MeanOfTimeForBodyAccelerationOnX MeanOfTimeForBodyAccelerationOnY
+    1          1   LAYING                        0.2215982                      -0.04051395
+    2          2   LAYING                        0.2813734                      -0.01815874
+    3          3   LAYING                        0.2755169                      -0.01895568
+    4          4   LAYING                        0.2635592                      -0.01500318
+    5          5   LAYING                        0.2783343                      -0.01830421
+    6          6   LAYING                        0.2486565                      -0.01025292
